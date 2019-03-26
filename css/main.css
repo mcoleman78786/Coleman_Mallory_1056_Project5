@@ -270,7 +270,7 @@ body {
 {
   display: flex;
   max-width: 1200px;
-  margin-top: 30px; 
+  margin-top: 80px; 
 }
 
 #main
@@ -293,6 +293,7 @@ body {
 
 #mainInfoText1
 {
+  display: flex;
   background-color: black;
   width: 415px;
   height: 386px;
@@ -307,10 +308,12 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+  margin-top: 80px;
 }
 
 #headerAndtext1
 {
+  display: flex;
   background-color: black;
   width: 557px;
   height: 527px;
@@ -320,8 +323,9 @@ body {
 
 #headerAndImg
 {
+  display: flex;
   background-color: black;
-  width: 421px;
+  width: 415px;
   height: 739px;
   margin: 0 auto;
   margin-top: 30px;
