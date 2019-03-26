@@ -9,15 +9,15 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 1400px;
+  max-width: 1200px;
   margin-top: 30px;
 }
 
 #mainNav 
 {
   background-color: black;
-  width: 376px;
-  height: 69px;
+  width: 300px;
+  height: 91px;
   margin: 0 auto;
   margin-top: 10px;
   color: white;
@@ -31,14 +31,14 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 1400px;
+  max-width: 1200px;
   margin-top: 30px; 
 }
 
 #mainInfoImg1
 {
   background-color: black;
-  width: 376px;
+  width: 300px;
   height: 257px;
   margin: 0 auto;
   color: white;
@@ -49,7 +49,7 @@ body {
 #mainInfoText1
 {
   background-color: black;
-  width: 376px;
+  width: 300px;
   height: 184px;
   margin: 0 auto;
   margin-top: 30px;
@@ -61,7 +61,19 @@ body {
 #headerAndtext1
 {
   background-color: black;
-  width: 376px;
+  width: 300px;
+  height: 387px;
+  margin: 0 auto;
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+  font-size: 27px;
+}
+
+#headerAndImg
+{
+  background-color: black;
+  width: 300px;
   height: 387px;
   margin: 0 auto;
   margin-top: 30px;
@@ -76,14 +88,14 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 1400px;
+  max-width: 1200px;
   margin-top: 30px;   
 }
 
 #ImgAndText1 
 {
   background-color: black;
-  width: 376px;
+  width: 300px;
   height: 462px;
   margin: 0 auto;
   margin-top: 30px;
@@ -95,7 +107,7 @@ body {
 #ImgAndText2 
 {
   background-color: black;
-  width: 376px;
+  width: 300px;
   height: 462px;
   margin: 0 auto;
   margin-top: 30px;
@@ -107,7 +119,7 @@ body {
 #ImgAndText3 
 {
   background-color: black;
-  width: 376px;
+  width: 300px;
   height: 462px;
   margin: 0 auto;
   margin-top: 30px;
@@ -119,7 +131,7 @@ body {
 #ImgAndText4 
 {
   background-color: black;
-  width: 376px;
+  width: 300px;
   height: 462px;
   margin: 0 auto;
   margin-top: 30px;
@@ -132,7 +144,7 @@ body {
 #ImgAndText5 
 {
   background-color: black;
-  width: 376px;
+  width: 300px;
   height: 462px;
   margin: 0 auto;
   margin-top: 30px;
@@ -147,27 +159,36 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 1400px;
+  max-width: 1200px;
   margin-top: 30px; 
-  justify-content: space-evenly;  
+  
+}
+
+#imgCon
+{
+  margin: 0 auto;
+  display: flex;
 }
 
 #thirdInfoImg1
 {
+  /*margin: 0 auto;*/
   background-color: black;
-  width: 186px;
-  height: 204px;
+  width: 146px;
+  height: 153px;
   margin-top: 30px;
   color: white;
   text-align: center;
   font-size: 27px;
+  margin-right: 10px;
 }
 
 #thirdInfoImg2
 {
+  margin: 0 auto;
   background-color: black;
-  width: 186px;
-  height: 204px;
+  width: 146px;
+  height: 153px;
   margin-top: 30px;
   color: white;
   text-align: center;
@@ -177,7 +198,7 @@ body {
 #thirdInfoImg3
 {
   background-color: black;
-  width: 376px;
+  width: 300px;
   height: 204px;
   margin: 0 auto;
   margin-top: 30px;
@@ -189,7 +210,7 @@ body {
 #thirdInfoText
 {
   background-color: black;
-  width: 376px;
+  width: 300px;
   height: 204px;
   margin: 0 auto;
   margin-top: 30px;
@@ -204,14 +225,14 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 1400px;
+  max-width: 1200px;
   margin-top: 30px;    
 }
 
 #footerNav
 {
   background-color: black;
-  width: 376px;
+  width: 300px;
   height: 608px;
   margin: 0 auto;
   margin-top: 20px;
@@ -223,6 +244,88 @@ body {
 
 @media screen and (min-width: 417px) {
 
+
+/*.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin-top: 30px;
+}*/
+
+#mainNav
+{
+  display: flex;
+  margin: 0 auto;
+  background-color: black;
+  width: 1200px;
+  height: 424px;
+  margin-top: 10px;
+  text-align: center;
+
+}
+
+.mainInfo 
+{
+  display: flex;
+  max-width: 1200px;
+  margin-top: 30px; 
+}
+
+#main
+{
+  display: flex;
+  flex-direction: row;
+}
+
+#mainInfoImg1
+{
+  display: flex;
+  background-color: black;
+  width: 555px;
+  height: 383px;
+  color: white;
+  text-align: center;
+  font-size: 27px;
+  margin-top: 30px;
+}
+
+#mainInfoText1
+{
+  background-color: black;
+  width: 415px;
+  height: 386px;
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+  font-size: 27px;
+}
+
+.headers
+{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+#headerAndtext1
+{
+  background-color: black;
+  width: 557px;
+  height: 527px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+#headerAndImg
+{
+  background-color: black;
+  width: 421px;
+  height: 739px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
 
 }
 
