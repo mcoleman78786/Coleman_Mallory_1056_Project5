@@ -23,43 +23,43 @@ body {
 
 .column1
 {
-	background-color: pink;
+  background-color: pink;
 }
 
 .column2
 {
-	background-color: red;
+  background-color: red;
 }
 
 .column3
 {
-	display: none;
+  display: none;
 }
 
 .column4
 {
-	display: none;
+  display: none;
 }
 
 
 @media screen and (min-width: 641px) {
 
 .column1 {
-	background-color: blue;
+  background-color: blue;
  }
 
 .column2 {
-	background-color: purple;
+  background-color: purple;
  }
 
 .column3 {
-	background-color: grey;
-	display: block;
+  background-color: grey;
+  display: block;
  }
 
 .column4 {
-	background-color: brown;
-	display: block;
+  background-color: brown;
+  display: block;
  }
 
 }
