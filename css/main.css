@@ -70,6 +70,12 @@ body {
   font-size: 27px;
 }
 
+.headers
+{
+  display: flex;
+  flex-direction: column;
+}
+
 #headerAndImg
 {
   background-color: black;
@@ -203,38 +209,31 @@ body {
 {
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   max-width: 1200px;
-  margin-top: 30px; 
-  
+  margin-top: 30px;  
 }
 
-#imgCon
-{
-  margin: 0 auto;
-  display: flex;
-}
 
 #thirdInfoImg1
 {
-  /*margin: 0 auto;*/
+  margin: 0 auto;
   background-color: black;
-  width: 146px;
-  height: 153px;
+  width: 300px;
+  height: 204px;
   margin-top: 30px;
   color: white;
   text-align: center;
   font-size: 27px;
-  margin-right: 10px;
 }
 
 #thirdInfoImg2
 {
   margin: 0 auto;
   background-color: black;
-  width: 146px;
-  height: 153px;
+  width: 300px;
+  height: 204px;
   margin-top: 30px;
   color: white;
   text-align: center;
@@ -446,6 +445,37 @@ body {
   width: 1081px;
   height: 348px;
   margin-top: 100px;  
+}
+
+.thirdInfo
+{
+  flex-direction: row;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+#thirdInfoImg1
+{
+  display: flex;
+  width: 326px;
+  height: 295px;
+  margin-right: -10px;
+}
+
+#thirdInfoImg2
+{
+  display: flex;
+  width: 326px;
+  height: 295px;
+}
+
+#thirdInfoImg3
+{
+  display: flex;
+  width: 326px;
+  height: 295px;
+  margin-left: -10px
 }
 }
 
