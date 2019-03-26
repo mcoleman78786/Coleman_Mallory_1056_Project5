@@ -1,6 +1,6 @@
 # Mallory Coleman Developer and Designer 
 
-This site will show how to use media query effectively and the used of flex-grow, flex-shrink, flex-basis, and flex using all three.
+This site will show how to use media query effectively and the used of media query and responsive design.
 
 The person viewing the site can check this site in firebox or chrome browser.
 
@@ -20,21 +20,18 @@ This is my project 5 for web development, MMED-1056
 Requriements:
 
 Each student must create a single web page with a basic example of a media query. 
-Create Single Web Page (4 Columns) 
+Create Single Web Page from one wireframes for TRAA, 
 At mobile size (remember mobile first)
-- The columns should stack and be full width.
-- Columns 3 and 4 should be hidden
-- Column 1 should be pink
-- Column 2 be redAt 641px the page will have 4 columns, equal width and display side by side.Column 1
-- blue, Column 2 
-- purple, Column 3 
-- grey, Column 4-brown. The site should not expand beyond 1140px
 
-Web Page 
--1 page -Semantic HTML 5 tagging 
--Link to CSS file, 
-JS File and Reset-Valid HTML5 &
- CSS-Proper Document Outline
+- Mobile should not expand beyond 300px
+-  The site should not expand beyond 1200px
+
+Web Page :
+-1 page
+-Semantic HTML 5 tagging
+-Link to CSS file, JS File and Reset -Valid HTML5 & CSS
+-Proper Document Outline
+
 
 Built with:
 HTML5, CSS, and Javascript set up.
