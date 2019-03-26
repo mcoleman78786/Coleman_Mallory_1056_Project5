@@ -22,6 +22,7 @@ body {
   margin-top: 10px;
   color: white;
   text-align: center;
+  font-size: 27px;
 }
 
 .mainInfo 
@@ -42,6 +43,7 @@ body {
   margin: 0 auto;
   color: white;
   text-align: center;
+  font-size: 27px;
 }
 
 #mainInfoText1
@@ -53,6 +55,7 @@ body {
   margin-top: 30px;
   color: white;
   text-align: center;
+  font-size: 27px;
 }
 
 #headerAndtext1
@@ -64,6 +67,7 @@ body {
   margin-top: 30px;
   color: white;
   text-align: center;
+  font-size: 27px;
 }
 
 .secondInfo
@@ -85,7 +89,7 @@ body {
   margin-top: 30px;
   color: white;
   text-align: center;
-
+  font-size: 27px;
 }
 
 #ImgAndText2 
@@ -97,7 +101,7 @@ body {
   margin-top: 30px;
   color: white;
   text-align: center;
-
+  font-size: 27px;
 }
 
 #ImgAndText3 
@@ -109,7 +113,7 @@ body {
   margin-top: 30px;
   color: white;
   text-align: center;
-
+  font-size: 27px;
 }
 
 #ImgAndText4 
@@ -121,7 +125,7 @@ body {
   margin-top: 30px;
   color: white;
   text-align: center;
-
+  font-size: 27px;
 }
 
 
@@ -134,7 +138,7 @@ body {
   margin-top: 30px;
   color: white;
   text-align: center;
-
+  font-size: 27px;
 }
 
 .thirdInfo
@@ -145,7 +149,7 @@ body {
   flex-wrap: wrap;
   max-width: 1400px;
   margin-top: 30px; 
-  justify-content: space-evenly;   
+  justify-content: space-evenly;  
 }
 
 #thirdInfoImg1
@@ -156,7 +160,7 @@ body {
   margin-top: 30px;
   color: white;
   text-align: center;
-
+  font-size: 27px;
 }
 
 #thirdInfoImg2
@@ -167,6 +171,7 @@ body {
   margin-top: 30px;
   color: white;
   text-align: center;
+  font-size: 27px;
 }
 
 #thirdInfoImg3
@@ -178,6 +183,7 @@ body {
   margin-top: 30px;
   color: white;
   text-align: center;
+  font-size: 27px;
 }
 
 #thirdInfoText
@@ -189,6 +195,7 @@ body {
   margin-top: 30px;
   color: white;
   text-align: center;  
+  font-size: 27px;
 }
 
 .mainFooter
@@ -209,7 +216,8 @@ body {
   margin: 0 auto;
   margin-top: 20px;
   color: white;
-  text-align: center;    
+  text-align: center; 
+  font-size: 27px;   
 }
 
 
