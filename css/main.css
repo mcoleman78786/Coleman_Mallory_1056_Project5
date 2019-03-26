@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1140px;
+  margin-top: 30px;
+}
+
+.column 
+{
+  padding: 60px;
+  margin: 0px;
+  flex: 1 1 auto; 
+  height: 250px;
+}
+
+.column1
+{
+	background-color: pink;
+}
+
+.column2
+{
+	background-color: red;
+}
+
+.column3
+{
+	display: none;
+}
+
+.column4
+{
+	display: none;
+}
+
+
+@media screen and (min-width: 641px) {
+
+.column1 {
+	background-color: blue;
+ }
+
+.column2 {
+	background-color: purple;
+ }
+
+.column3 {
+	background-color: grey;
+	display: block;
+ }
+
+.column4 {
+	background-color: brown;
+	display: block;
+ }
+
+}
+
