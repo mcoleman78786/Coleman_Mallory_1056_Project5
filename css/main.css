@@ -1,5 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
+
+.hidden
+{
+  display: none;
+}
+
+
 body {
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -344,8 +351,7 @@ body {
   display: flex;
   width: 557px;
   height: 527px;
-  margin-top: 30px;
-  margin-right: -10px;
+  margin-right: -20px;
 }
 
 #headerAndImg
@@ -353,7 +359,6 @@ body {
   display: flex;
   width: 415px;
   height: 527px;
-  margin-top: 30px;
 }
 
 .ImgText
@@ -392,7 +397,7 @@ body {
   display: flex;
   width: 433px;
   height: 710px;
-  margin-right: 90px;
+  margin-right: 70px;
 }
 
 #ImgAndText2 
@@ -414,7 +419,7 @@ body {
   display: flex;
   width: 433px;
   height: 710px;
-  margin-right: 90px;
+  margin-right: 70px;
 }
 
 #ImgAndText4 
@@ -503,6 +508,7 @@ body {
 {
   width: 1200px;
   height: 380px;
+  display: flex;
 }
 }
 
